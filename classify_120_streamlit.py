@@ -15,7 +15,7 @@ physical_devices = tf.config.experimental.list_physical_devices('GPU')
 
 def predict(image1): 
     #model = MobileNetV2(include_top=True, weights='imagenet')
-    model = load_model('tl_fine_tuning_InceptionResNetV2_120_breeds.h5')
+    model = load_model('tl_fine_tuning_InceptionResNetV2_120_breeds.hdf5')
     #model = model_from_json('model.json')
     #with open('model.json', 'r') as json_file:
     #    model = model_from_json(json_file.read())
