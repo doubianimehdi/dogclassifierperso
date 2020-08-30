@@ -1,7 +1,6 @@
 import streamlit as st 
 from PIL import Image
 from classify_120_streamlit import predict
-from numba import cuda
 import time
 
 uploaded_file = st.file_uploader("Choose an image...")
