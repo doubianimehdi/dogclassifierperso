@@ -2,3 +2,5 @@ streamlit
 Keras
 tensorflow-cpu
 numpy
+altair
+pandas
