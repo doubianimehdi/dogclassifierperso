@@ -2,4 +2,3 @@ streamlit
 Keras
 tensorflow-cpu
 numpy
-pickle
