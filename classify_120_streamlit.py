@@ -29,7 +29,7 @@ def load_classeslabels():
 def preprocess(img):
   width, height = img.shape[0], img.shape[1]
   img = image.array_to_img(img, scale=False)
-  img = img.resize((299,299))
+  img = img.resize((224,224))
   img = image.img_to_array(img)
   img /= 255.0
   img = np.expand_dims(img,axis=0)
